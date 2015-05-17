@@ -1,0 +1,112 @@
+#div {
+    border: 2px solid;
+    border-top-right-radius: 2em;
+	border-top-left-radius: 2em;
+	border-bottom-left-radius: 2em;
+	border-bottom-right-radius: 2em;
+	width:80%;
+	float:none;
+	padding:auto;
+	margin:auto;
+	background-color:#000033;
+}
+
+#content{
+width:auto;
+height:auto;
+margin-top:50px;
+margin-bottom:50px;
+margin-left:40px;
+margin-right:40px;
+padding-bottom:50px;
+background-color:#FFFFFF;
+border:solid;
+
+}
+
+#top-image{
+
+	height:188px;
+	width:150px;
+	float:right;
+	border-color:#000033;
+	font-position: center;
+	background-image:url(../images/faisal.jpg);
+	margin-right:3px;
+}
+
+#heading{
+
+font:Verdana, Arial, Helvetica, sans-serif;
+font-size:inherit;
+text-align:left;
+text-shadow:#000000;
+padding-top:100px;
+
+}
+.seperate{
+background-image:url(../images/bmid.jpg);
+margin:auto;
+width:auto;
+height:2px;
+}
+#header_left{
+    
+    margin-left: 4px;
+    margin-top: 100px;
+    margin-bottom: none;
+}
+.ul_style{
+    list-style: square;
+    line-height: 30px;
+
+
+}
+.ol_style{
+    list-style:number;
+}
+
+.profile_firstdiv{
+
+width:15%; 
+float:left;
+padding-left: 20px;
+margin-left: 10px;
+border-style: ;
+}
+
+
+.profile_middiv{
+width: 5%;
+float:left;
+margin-left: 20px;
+border-style:;
+}
+
+
+.profile_lstdiv {
+    border-style:;
+    margin-right: 90px;
+    padding: 0px;
+    
+}
+
+#sig{
+   background-image: url(../images/sig.jpg);
+    border-style:;
+    height: 50px;
+    width: 265px;
+    
+   
+    
+}
+
+
+
+
+
+
+
+
+
+

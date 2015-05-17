@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PSD to HTML</title>
+    
+<style>
+    *{margin: 0;padding: 0;}
+    .float--left{float: left;}
+    .float--right{float: right;}
+    
+    .column--12{width: 100%;}
+    .column--11{width: 91.66%;}
+    .column--10{width: 83.33%;}
+    .column--9{width: 75%;}
+    .column--8{width: 66.66%;}
+    .column--7{width: 58.33%;}
+    .column--6{width: 50%;}
+    .column--5{width: 41.66%;}
+    .column--4{width: 33.33%;}
+    .column--3{width: 25%;}
+    .column--2{width: 16.66%;}
+    .column--1{width: 8.33%;}
+    
+    .body{margin: 0; padding: 0px;}
+    
+    .body_content{margin: auto;
+    width: 970px;}
+    
+    .Blitz {
+  font-size: 42px;
+  font-family: "Pacifico";
+  color: rgb( 71, 71, 71 );
+  line-height: 0.429;
+  text-align: left;
+  position: absolute;
+  left: 230.848px;
+  top: 54.784px;
+  z-index: 127;
+    }
+        
+        
+    .Rectangle_1 {
+  background-color: rgb( 255, 255, 255 );
+  opacity: 0.902;
+  left: -2px;
+  top: -17px;
+  width: 100%;
+  height: 106px;
+  z-index: 31;
+        margin: auto;
+        float: left;
+        border: 1px solid black;
+        opacity: .7;
+}
+    
+    .Graff_pink {
+  font-size: 40.994px;
+  font-family: "Lavanderia";
+  color: rgb( 0, 0, 0 );
+        margin-left: 80px;
+        width: 130px;
+        margin-top: 20px;
+        float: left;
+}
+
+    .nav{
+        
+        min-height: 106px;
+        float: left;
+       
+    }
+    
+    .nav ul{
+        
+        list-style: none;
+        float: right;
+    }
+    .nav ul li{float: left;}
+    .nav ul li a{
+        text-decoration: none;
+        padding: 40px;
+        display: block;
+    }
+    .nav ul li a:hover{}
+    
+    
+    .login{
+        
+        height: 106px;
+        float: right;
+        margin-right: 30px;
+    }
+    
+    .button{
+        
+        margin-top: 38px;
+
+    }
+    
+    
+    .Rounded_Rectangle_1_copy {
+  border-radius: 3px;
+  background-color: rgb( 222, 109, 110 );
+  top: 35px;
+  width: 88px;
+  height: 28px;
+  z-index: 33;
+      color: white;
+        font-size: 12px;
+        padding-left: 5px;
+    margin-top: 38px;
+    
+}
+    
+    .image2{
+        
+        margin-top: 6px;
+        margin-left: 10px;
+    }
+
+    .Rounded_Rectangle_1_copy a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .slider{
+        
+        height: 587px; 
+        width: 100%;
+        background-color: red;
+        background-image: url(slid.jpg);
+        background-position: center;
+        background-size: 587px;
+       
+       
+    }
+    
+    .content{
+        height: 500px;
+        width: 970px;
+        background-image: url(slid.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        
+        
+    }
+    .header{
+        
+        background-color: white;
+        height: 106px;
+        opacity: .7;
+        
+    }
+    
+    
+    .Welcome_to_Pink {
+  font-size: 68.994px;
+  font-family: "AlteHaasGrotesk_Bold";
+  color: rgb( 255, 255, 255 );
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 0px 0px 13px rgb( 0, 0, 0 );
+    height: 200px;
+    width: 100%;
+        padding-top: 160px;
+        box-sizing: border-box;
+        opacity: 1;
+        clear: both;
+}
+    
+    
+    .A_multi_purpose_theme_from_cssauthor_com {
+  font-size: 25px;
+  font-family: "UniversLT";
+  color: rgb( 255, 255, 255 );
+  text-align: center;
+  text-shadow: 0px 0px 13px rgb( 0, 0, 0 );
+  padding-top: 50px;
+  z-index: 5;
+}
+
+    
+    .Lorem_Ipsum_is_simply_dummy_ {
+  font-size: 35px;
+  font-family: "Myriad Pro";
+  color: rgb( 64, 64, 64 );
+  text-align: center;
+  margin-top: 60px;
+  z-index: 54;
+}
+    
+    
+    .Lorem_Ipsum_is_simply_dummy_text_of_the_printin {
+  font-size: 17px;
+  font-family: "UniversLT";
+  color: rgb( 99, 99, 99 );
+  text-align: center;
+  
+  width: 827px;
+  height: 60px;
+  z-index: 53;
+    margin: auto;
+}
+
+    
+    .circle{
+        
+        min-height: 200px;
+        width: 100%;
+    }
+
+    
+    .circle1{
+        
+        height: 198px;
+        float: left;
+        
+    }
+.circlebox1{
+    background-color: aqua;
+    background-image: url(ticket.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 180px;
+    width: 180px;
+    border-radius: 100%;
+    margin: auto;
+    margin-top: 10px;
+}
+    
+    .circlebox2{
+    background-color: lightgreen;
+    background-image: url(camera.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 180px;
+    width: 180px;
+    border-radius: 100%;
+    margin: auto;
+    margin-top: 10px;
+}
+    
+    .text{
+        
+        margin: auto;
+        text-align: center;
+        padding-top: 140px;
+        color: white;
+        font-size: 17px;
+  font-family: "Myriad Pro";
+  color: rgb( 255, 255, 255 );
+  text-align: center;
+
+    }
+    
+    .circlebox3{
+    background-color: hotpink;
+    background-image: url(beermug.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 180px;
+    width: 180px;
+    border-radius: 100%;
+    margin: auto;
+    margin-top: 10px;}
+    
+    
+    .text2{
+        
+        font-size: 12px;
+  font-family: "Myriad Pro";
+  color: rgb( 255, 255, 255 );
+  text-align: center;
+    padding-top: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .text3{
+        
+        margin: auto;
+        text-align: center;
+        padding-top: 17px;
+        color: white;
+        font-size: 17px;
+  font-family: "Myriad Pro";
+  color: rgb( 255, 255, 255 );
+  text-align: center;
+
+    }
+    
+    .circlebox4{
+    background-color: darkorange;
+    background-image: url(ipad.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 180px;
+    width: 180px;
+    border-radius: 100%;
+    margin: auto;
+    margin-top: 10px;}
+    
+    .desc{
+        
+        min-height: 600px;
+        margin-top: 80px;
+    }
+    .Sdiv{
+        min-height: 200px; 
+        width: 100%;
+        
+    }
+    
+    
+    .sdiv_left{
+        
+        width: 20%;
+        height: 130px; 
+        background-color: aqua;
+        float: left;
+        
+    }
+
+ .sdiv_right{
+        
+        width: 80%;
+        height: 150px; 
+        float: right;
+    }
+    
+    .img1{
+        
+        height: 130px;
+        width: 200px;
+    }
+    
+    .Lorem_Ipsum_is_simply {
+  font-size: 27px;
+  font-family: "Myriad Pro";
+  color: rgb( 64, 64, 64 );
+  text-align: left;
+       
+}
+    
+    .sdiv_right_p{
+  font-size: 15px;
+  font-family: "Myriad Pro";
+  color: rgb( 139, 139, 139 );
+  line-height: 1.467;
+  text-align: justifyLeft;
+        padding-left: 50px;
+  
+}
+    
+    .h4{padding-left: 50px;}
+    
+    .footer{
+        
+        min-height: 200px;
+        width: 100%;
+        background-color: darkslategray;
+        position: relative;
+    }
+    
+    .footer_content{
+        
+        min-height: 220px;
+        width: 100%;
+        margin: auto;
+        padding-top: 10px;
+        
+    }
+    
+    .footer_left{
+        
+        float: left;
+    height: 180px;
+    width: 50%;
+        
+    }
+    
+    .footer_right{
+        
+    float: right;
+    height: 180px;
+    margin-right: 96px;
+    width: 37%;
+        
+    }
+    
+    .footer_sub_div{
+        
+        width: 25%;
+        min-height: 180px;
+        float: left;
+        padding-left: 20px;
+        box-sizing: border-box;
+        text-align: left;
+    }
+    
+    .footer_text{
+        
+   
+  font-size: 15px;
+  font-family: "Myriad Pro";
+  color: rgb( 139, 139, 139 );
+  line-height: 1.467;
+  text-align: justifyLeft;
+    list-style: none;
+        padding-left: px;
+        text-align: ;
+
+}
+    
+    .footer_right_up{min-height: 68px;
+    width: 100%; padding-top: 40px;
+    }
+
+    .footer_right_down{
+        
+        min-height: 50px;
+        width: 100%;
+        font-size: 15px;
+        font-family: "UniversLT";
+        color: rgb( 139, 139, 139 );
+        line-height: 1.467;
+        text-align: center;
+        padding-top: 20px;
+          
+    }
+
+    .iconf{
+        background-color: darkgrey;
+        border-radius: 100%;
+        float: left;
+        margin-left: 32px;
+        min-height: 56px;
+        width: 16%;
+        background-image: url(facebook.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .icons{
+        background-color: darkgrey;
+        border-radius: 100%;
+        float: left;
+        margin-left: 32px;
+        min-height: 56px;
+        width: 16%;
+        background-image: url(twiter.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    
+    .icont{
+        background-color: darkgrey;
+        border-radius: 100%;
+        float: left;
+        margin-left: 32px;
+        min-height: 56px;
+        width: 16%;
+        background-image: url(dribble.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    
+    .icond{
+        background-color: darkgrey;
+        border-radius: 100%;
+        float: left;
+        margin-left: 32px;
+        min-height: 56px;
+        width: 16%;
+        background-image: url(share.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .ico{
+    
+        height: 28px;
+        width: 13px;
+        margin: auto;
+        padding: 9px 20px;
+        
+    }
+    
+    
+    .Copyright_©_2009–2013_Cssauthor_com {
+          
+}
+
+    
+    </style>
+    
+   
+    </head>
+    <body>
+      <div class="body_content">
+       <div class="content">
+           <div class="header">
+               <div class="Graff_pink">
+               <img src="logo.png">
+           </div>
+           <div class="nav column--7 float--right">
+               <ul>
+                   <li><a href="">Home</a> </li>
+                   <li><a href="">About Us</a> </li>
+                   <li><a href="">Service</a> </li>
+                   <li><a href="">Contact</a> </li>
+                   
+               </ul>
+               
+           </div>
+           
+           <div class="login column--2"> 
+             <div class="Rounded_Rectangle_1_copy"><img class="image2" src="image2.png"/>&nbsp;&nbsp;<a href="">Login</a> 
+                 
+               </div>
+            </div>
+            </div>
+            
+            <div class="Welcome_to_Pink">
+            Welcome to Pink
+           
+       </div>
+              <div class="A_multi_purpose_theme_from_cssauthor_com">
+                  
+                  A multi purpose theme from cssauthor.com
+              </div>
+              
+              
+               </div>
+               
+               <div class="Lorem_Ipsum_is_simply_dummy_">
+                  Lorem Ipsum is simply dummy
+                  
+              </div>
+              
+              <div class="Lorem_Ipsum_is_simply_dummy_text_of_the_printin">
+                  
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+              </div>
+              
+              
+              <div class="circle">
+                  <div class="circle1 column--3">
+                      <div class="circlebox1"><div class="text">Tickets</div> </div>
+                      
+                  </div>
+                  
+                     <div class="circle1 column--3">
+                          <div class="circlebox2"><div class="text">Camera</div> </div>
+                      
+                  </div>
+                  
+                  
+                  <div class="circle1 column--3">
+                      <div class="circlebox3">
+                      
+                      <div class="text2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text </div>
+                      
+                      
+                      <div class="text3">Beer</div> 
+                      </div>
+                  </div>
+                  <div class="circle1 column--3">
+                      
+                      <div class="circlebox4"><div class="text">Devices</div> </div>
+                  </div>
+              </div>
+              
+              
+              
+              <div class="desc column--12">
+                 
+                 <div class="Sdiv">
+                     <div class="sdiv_left"><img class="img1" src="img1.jpg"/></div>
+                     
+                         <div class="sdiv_right Lorem_Ipsum_is_simply"><h4 class="h4">Lorem Ipsum is simply</h4>
+                             <p class="sdiv_right_p">
+                                 
+                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                             </p>
+                          
+                            </div></div>
+
+                
+                 <div class="Sdiv">
+                     <div class="sdiv_left"><img class="img1" src="img1.jpg"/></div>
+                     
+                         <div class="sdiv_right Lorem_Ipsum_is_simply"><h4 class="h4">Lorem Ipsum is simply</h4>
+                             <p class="sdiv_right_p">
+                                 
+                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                             </p>
+                          
+                            </div>
+                     
+                 </div>
+                 
+                 
+                 <div class="Sdiv">
+                     <div class="sdiv_left"><img class="img1" src="img1.jpg"/></div>
+                     
+                         <div class="sdiv_right Lorem_Ipsum_is_simply"><h4 class="h4">Lorem Ipsum is simply</h4>
+                             <p class="sdiv_right_p">
+                                 
+                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                             </p>
+                          
+                            </div>
+                 </div>
+                  
+              </div>
+              
+              
+              <div class="footer">
+                  <div class="footer_content">
+                     <div class="footer_left">
+                         <div class="footer_sub_div">
+                             <strong class="footer_text" style="text-align:center">Sub Menu</strong><br>
+                             <br/><ul class="footer_text">
+                                 <li>Android</li>
+                                 <li>Apps</li>
+                                 <li>Articles</li>
+                                 <li> Backgrounds</li>
+                                 <li> Blogger</li>
+                                 <li>Books</li>
+                                 <li>Coding</li>
+                                 
+                             </ul>
+                         </div>
+                         <div class="footer_sub_div">
+                              <strong class="footer_text" style="text-align:center; margin-bottom:20px;">Sub Menu</strong><br>
+                            <br><ul class="footer_text">
+                                 <li>Freebies</li>
+                                 <li>Greetings</li>
+                                 <li> Icons</li>
+                                 <li>  Illustrator</li>
+                                 <li>Inspiration</li>
+                                 <li> iPad</li>
+                                 <li> iPhone</li>
+                                 
+                             </ul>
+                             
+                         </div>
+                         <div class="footer_sub_div">
+                              <strong class="footer_text" style="text-align:center">Sub Menu</strong><br>
+                             <br><ul class="footer_text">
+                                 <li>Drupal</li>
+                                 <li>Fonts</li>
+                                 <li>Freebies</li>
+                                 <li> Greetings/li>
+                                 <li>Icons</li>
+                                 <li> Illustrator</li>
+                                 <li>Inspiration</li>
+                                 
+                             </ul>
+                         </div>
+                         <div class="footer_sub_div">
+                              <strong class="footer_text" style="text-align:center">Sub Menu</strong><br>
+                             <br><ul class="footer_text">
+                                 <li>JQuery</li>
+                                 <li>Magento</li>
+                                 <li>Mobile</li>
+                                 <li> Photoshop</li>
+                                 <li> Plugins</li>
+                                 <li>Resource</li>
+                                 <li>Templates</li>
+                                 
+                             </ul>
+                         </div>
+                         
+                     </div>
+                     <div class="footer_right">
+                         <div class="footer_right_up">
+                         
+                            <div class="iconf"></div>
+                            <div class="icont"></div>
+                            <div class="icond"></div>
+                            <div class="icons"></div>
+                            
+                         
+                         </div>
+                         <div class="footer_right_down">
+                             
+                             Copyright_©_2009–2013_Cssauthor_com 
+                         
+                         </div>
+                         
+                     </div>
+                      
+                      
+                  </div>
+                  
+              </div>
+              
+              
+              
+              
+              
+              
+       
+       
+       
+        
+        
+       </div> 
+    </body>
+</html>

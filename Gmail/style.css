@@ -1,0 +1,31 @@
+
+        *{margin: 0px; padding: 0px;}
+        .header{background-color: #F1F1F1;}
+        .header_content{margin: auto;}
+        .logo{background-image: url("google_logo_41.png");
+            background-repeat: no-repeat;
+            display: table-caption;
+            margin-top: 22px;}
+        .sign_in{float: right; margin-top: -42px;}
+        .sign_in_button{background-color: #4d90fe;background-image: -moz-linear-gradient(center top , #4d90fe, #4787ed);border: 1px solid #3079ed; color: #fff;text-shadow: 0 1px rgba(0, 0, 0, 0.1);}
+        
+        .content_h1{height: 40px;width: 80%; border: ;margin: auto; text-align: center;margin-top: 50px;color: #555;font-family: "Open Sans",arial;font-size: 38px;font-weight: 300;}
+        .content_body{min-height: 759px; width: 70%; border:none;margin: auto;}
+        .left_content{min-height: 558px; width: 45%; margin-left: 20px; background-image: url(cont.jpg);background-repeat: no-repeat; float: left; border: ;}
+        .right_content{min-height: 558px; width: 45%; border:;float: right;}
+        .sign_up_form{width: 90%; min-height: 740px; background-color: #F1F1F1; margin: auto; margin-top: 20px; border: none;}
+        .form_body{min-height: 400px; width: 89%; border:; margin: auto; margin-top: 10px;}
+        .input_text{line-height: 2em; padding-left:3px;}
+        .label_style{font-weight: bold; ;font-family: sans-serif;font-size: 13px;}
+        .footer{min-height: 60px;width: 100%; border:}
+        .footer_content{min-height: 40px; width: 100%; margin: auto; margin-top: 10px; background-image: url(footer.jpg); background-repeat: no-repeat;}
+        
+        .atgmail {
+             -moz-user-select: none;
+            color: #999;
+            direction: ltr;
+            position: absolute;
+            right: 248px;
+            top: 326px;
+}
+        *::-moz-placeholder {font-size: 15px;}

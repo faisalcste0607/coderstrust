@@ -1,0 +1,58 @@
+ 
+    body{font-family: Roboto;
+         background-color: #EDF0F5;
+        }
+.sign_up{
+    float: right;
+    padding-left: 3%; 
+    padding-right: 135px;
+    margin-top: 2%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+
+
+
+    .input_text{height: 20px;margin-bottom: 10px;border-radius: 5px;border: 1px solid gray;padding: 10px;color: gray;font-size: 12}
+
+    ::-webkit-input-placeholder {
+ 
+        font-size: 20px;
+        padding: 10px;
+    }
+    :-moz-placeholder { /* older Firefox*/
+        font-size: 20px;
+         padding: 10px;
+    }
+    ::-moz-placeholder { /* Firefox 19+ */ 
+        font-size: 20px;
+    } 
+    :-ms-input-placeholder { 
+        font-size: 20px;
+         padding: 10px;
+    }
+    .select_input{
+    height: 41px;
+        width: 15%;
+        
+        
+    }
+    .day_input{
+    margin-left: -1%;
+         padding: 10px;
+    }
+    .input_style{width: 85%}    
+
+    .signup_button{height: 40px;width: 160px;text-align: center;font-weight: bold;background-color: #69A455;color: white;border: 1px solid #3B6E22;border-radius: 5px;}
+
+.bday{float: left;width: 100%}
+
+.bd{float: right;padding: 0; width:53%;font-size: 12;}
+.input_male{margin-left: 10px;}
+.policy{font-size: 12;color: gray}
+.celebrity{font-size: 14}
+
+.f_name{float: left;}
+.l_name{float: right; padding: 0; width:54%;}
+.info{min-width: 100%;}
